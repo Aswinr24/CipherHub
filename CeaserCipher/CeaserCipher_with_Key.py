@@ -9,10 +9,8 @@ translated = ''
 for text in message:
   if text in set:
     textIndex = set.find(text)
-    print(textIndex)
     if mode == 'encrypt':
      translatedtext = textIndex + key
-     print(translatedtext)
     elif mode == 'decrypt':
      translatedtext = textIndex - key
      
