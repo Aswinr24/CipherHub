@@ -1,4 +1,3 @@
-# The string to be encrypted/decrypted:
 message = input()
 # The encryption/decryption key:
 key = int(input("Enter the key:"))
