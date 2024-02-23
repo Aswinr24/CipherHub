@@ -8,4 +8,4 @@ decrypted = ""
                 decrypted += chr(ord('Z') - (ord(text) - ord('A')))
         else:
             decrypted += text
-    print(decrypted)
+print(decrypted)
